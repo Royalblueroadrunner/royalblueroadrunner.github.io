@@ -1,0 +1,312 @@
+        * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+    }
+    header {
+        background: #333333;
+        color: rgb(51, 51, 51);
+        height: 10vh;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+        border-bottom: none;
+    }
+    #menu-toggle {
+        background: #4b4c4f;
+        height: 10vh;
+        width: 10vh;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: absolute;
+        right: 0;
+    }
+    #menu-toggle img {
+        height: 4vh;
+        width: 4vh;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    #mobile-project {
+        background: #f2f2f2;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: absolute;
+        right: 110px;
+        padding-top: 20px;
+        top: 55px;
+        height: 50vh;
+        width: 50vh;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    #Mobile-Website img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 45vh;
+        width: 45vh;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    #desktop-project {
+        background: #f2f2f2;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: absolute;
+        right: 230px;
+        padding-top: 30px;
+        top: 55px;
+        height: 50vh;
+        width: 50vh;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    #Desktop-Website img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 45vh;
+        width: 45vh;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    @media all and (min-width:1000px) {
+        #menu-toggle {
+            display: none
+        }
+    }
+    #page1 {
+        height: 900px;
+        background-image: url(/Homework_TTH_Kevin_Diaz/Homework_TTH_Kevin_Diaz/OfficialPortfolioProject/images/DoorExampleBG.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 40vh;
+        text-align: center;
+    }
+    #page1 h1,
+    h2 {
+        padding-top: 6vh;
+        height: 20vh;
+        background-attachment: fixed;
+    }
+    #page2 {
+        height: 900px;
+        background-color: #333333;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 40vh;
+        text-align: center;
+    }
+    /*
+#e6e6e6 color is grey, use if want to revert back to original.
+#333333 color is blackish, use if approved. 
+*/
+    
+    .left-half {
+        background-color: #333333;
+        transform: translateY(-12%);
+        float: left;
+        height: 500px;
+        width: 50%;
+        background-image: url(/Homework_TTH_Kevin_Diaz/Homework_TTH_Kevin_Diaz/OfficialPortfolioProject/images/kevimage.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .right-half {
+        background-color: #ffffff;
+        transform: translateY(-12%);
+        float: left;
+        height: 500px;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .new-left-half {
+        background-color: #333333;
+        transform: translateY(-16%);
+        float: left;
+        height: 500px;
+        width: 50%;
+    }
+    .new-right-half {
+        background-color: #333333;
+        transform: translateY(-16%);
+        float: right;
+        height: 500px;
+        width: 50%;
+    }
+    /*
+ background-color: #333333;
+ background-color: #ffffff;
+*/
+    
+    #page3 {
+        color: #333333;
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        font-size: 3.2em;
+        height: 900px;
+        background-color: #f2f2f2;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 5vh;
+        text-align: center;
+    }
+    #page3 h1 {
+        transform: translateY(-55%);
+    }
+    #page4 {
+        color: #f2f2f2;
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        font-size: 3.2em;
+        height: 640px;
+        background-color: #333333;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 5vh;
+        text-align: center;
+    }
+    input[type=text],
+    select,
+    textarea {
+        width: 40%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        resize: vertical;
+        transform: translateY(-45%);
+    }
+    input[type=email] {
+        width: 40%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 4px;
+        margin-bottom: 16px;
+        resize: vertical;
+        transform: translateY(-65%);
+    }
+    input[type=name] {
+        width: 40%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 3px;
+        margin-bottom: 30px;
+        resize: vertical;
+        transform: translateY(-65%);
+    }
+    .button {
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 5px;
+        color: #333333;
+        padding: 0;
+        text-align: left;
+        right: 400px;
+        text-decoration: none;
+        position: absolute;
+        font-size: 22px;
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        padding: 5px;
+        margin: 6px 3px;
+        cursor: pointer;
+        transform: translateY(-95%);
+    }
+    #page1 h1 {
+        color: #f5f5f5;
+        color: rgb(245, 245, 245);
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        margin: 0;
+        min-height: 5 vmin;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #f5f5f5;
+        color: rgb(245, 245, 245);
+        font-family: "Source Sans Pro";
+        font-size: 2em;
+        font-style: bold;
+        padding-top: 1vh;
+        min-height: 3.5 vmin;
+    }
+    .right-half h1 {
+        color: #333333;
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        font-size: 4.4em;
+        padding-top: 1vh;
+        transform: translateX(-19%);
+    }
+    .right-half p {
+        color: #333333;
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        font-size: 1.35em;
+        padding-top: 3vh;
+        text-align: left;
+        padding-left: 10vh;
+        padding-right: 5vh;
+    }
+    nav {
+        display: inline-block;
+        float: right;
+        right: 10vw;
+        position: relative;
+        height: 10vh;
+    }
+    nav a {
+        padding: 0.9rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Source Sans Pro";
+        font-style: bold;
+        font-weight: 900;
+        font-size: 1.5em;
+        line-height: 10vh;
+    }
+
+
+
+    @media all and (max-width:1000px) {
+        nav a {
+            display: none
+        }
+        
+        @media all and (min-width:1000px) {
+            nav a {
+                margin-right: 10vw
+            }
+        }
+        @media all and (min-width:1200px) {
+            nav a {
+                margin-right: 12.5vw
+            }
+        }
